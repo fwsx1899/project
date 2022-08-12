@@ -1,2 +1,3 @@
 # project
 project xl20xs2
+Three classification models, logistic regression, RF, and XGBoost, were used to predict whether an aneurysm was successfully treated. Another three regression models, linear regression, RF, and XGBoost, were used to predict the difference in mean blood flow velocity in space and time within the preoperative and postoperative aneurysm sacs. A simple pre-processing of the data was first performed, after which the machine learning models were trained separately. To reduce model complexity and improve model training efficiency, feature screening was performed prior to model construction. Model parameters were adjusted to improve model accuracy by setting model parameters using grid search in LR, RF and XGBoost models.
